@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router";
-import { ContainerButton } from "./styles";
+import { Container } from "./styles";
 
 
 export function ButtonContainer(){
     const navigate = useNavigate()
     return(
-        <ContainerButton>
+        <Container>
              <button onClick={() => navigate("/")}>Voltar para a tela principal</button>
-        </ContainerButton>
+        </Container>
     )
 }

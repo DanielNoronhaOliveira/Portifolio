@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerButton = styled.button`
+export const Container = styled.button`
   background-color:#000000;
 display: flex;
 margin-top: 100px;
